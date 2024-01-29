@@ -29,10 +29,12 @@ pacman -Syu cmake
 ```
 
  - 4: Generate configuration files with CMake:
+
 ```
 cmake ..
 ```
  - 5: Compile both server and client using the command:
+
 ```
 make
 ```
