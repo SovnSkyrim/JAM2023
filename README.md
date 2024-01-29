@@ -5,38 +5,38 @@ This project contains a server (binary: r-type_server) and a client (binary: r-t
 ## Compilation
 
 The project uses CMake for compilation. Follow the steps below to compile the project:
+ - 1: Run the following git commands to initialize submodules:
 
-   1. Run the following git commands to initialize submodules:
+```
+git submodule init
+git submodule update
+```
 
-    git submodule init
 
-    git submodule update
+ - 2: Create a build directory:
 
-   2. Create a build directory:
+```
+mkdir build
+cd build
+```
+ - 3: Ensure that you have CMake installed. If not, you can install it using:
 
-    mkdir build
+```
+sudo apt-get install cmake
+// OR
+sudo dnf install cmake
+// OR
+pacman -Syu cmake
+```
 
-    cd build
-
-   3. Ensure that you have CMake installed. If not, you can install it using:
-
-    sudo apt-get install cmake
-
-   OR
-
-    sudo dnf install cmake
-
-   OR
-
-    pacman -Syu cmake
-
-   4. Generate configuration files with CMake:
-
-    cmake ..
-
-   5. Compile both server and client using the command:
-
+ - 4: Generate configuration files with CMake:
+```
+cmake ..
+```
+ - 5: Compile both server and client using the command:
+```
     make
+```
 
 ## Usage
 
