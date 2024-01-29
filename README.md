@@ -12,7 +12,6 @@ git submodule init
 git submodule update
 ```
 
-
  - 2: Create a build directory:
 
 ```
@@ -35,8 +34,9 @@ cmake ..
 ```
  - 5: Compile both server and client using the command:
 ```
-    make
+make
 ```
+
 
 ## Usage
 
@@ -61,4 +61,8 @@ Once the compilation is complete, you can run the server and client using the fo
    If the client is on a different machine, the IP will be the IP address of the PC in its network
 
     make cli PORT=8080 SERVER_IP=85.168.161.236
----```
+
+
+## Engine documentation
+
+[Click on this link](EngineReadme.md)
