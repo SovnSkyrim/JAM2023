@@ -68,3 +68,7 @@ Once the compilation is complete, you can run the server and client using the fo
 ## Engine documentation
 
 [Click on this link](EngineReadme.md)
+
+## Network documentation
+
+[Click on this link](NetworkReadme.md)
