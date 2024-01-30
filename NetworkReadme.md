@@ -4,7 +4,7 @@
 
 
 ## Schema
-![Alt text](schema/schema-network.png)
+![Schema](schema/schema-network.png)
 
 ## Abstract
 

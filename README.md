@@ -25,7 +25,7 @@ sudo apt-get install cmake
 // OR
 sudo dnf install cmake
 // OR
-pacman -Syu cmake
+sudo pacman -Syu cmake
 ```
 
  - 4: Generate configuration files with CMake:
