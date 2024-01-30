@@ -119,7 +119,7 @@ Now, your new entity is integrated into the RType Entity System. Make sure to ad
 
 ```cpp
 // Example of adding a new Enemy entity
-Entity::Enemy *newEnemy = world.addEnemy(1, 100, 200, Entity::direction::UP);
-
+Entity::Enemy *newEnemy = world.addEnemy(1, 100, 200);
+```
 
 [Click on this link](README.md)
